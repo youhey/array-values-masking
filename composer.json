@@ -1,0 +1,36 @@
+{
+    "name": "youhey/array-values-masking",
+    "description": "For recursively masking secret data  within array-values.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "IKEDA Youhei",
+            "email": "youhey.ikeda@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "6.0.*",
+        "squizlabs/php_codesniffer": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Youhey\\ArrayValuesMasking\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Youhey\\ArrayValuesMasking\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": [
+            "@phpunit",
+            "@phpcs"
+        ],
+        "phpunit": "php vendor/bin/phpunit",
+        "phpcs": "php vendor/bin/phpcs"
+    }
+}

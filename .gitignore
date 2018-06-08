@@ -1,0 +1,24 @@
+# Global
+.DS_Store
+*~
+~*
+*.swp
+*.bak
+*.bk
+Thumbs.db
+desktop.ini
+tmp
+
+# PHP
+/vendor
+/composer.lock
+
+# misc
+.vagrant
+tags
+.vimsessions
+/.idea
+workspace.xml
+vcs.xml
+modules.xml
+*.iml
